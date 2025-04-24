@@ -27,7 +27,7 @@ public class formatDates {
         LocalDateTime dateTime = LocalDateTime.now();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("E, MMM, dd, yyyy, HH:mm");
         String formatDate = dateTime.format(dtf);
-        System.out.println("Today is; " + formatDate);
+        System.out.println("Today is: " + formatDate);
 
 
 
